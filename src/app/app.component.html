@@ -1,0 +1,10 @@
+<button pButton type="button" class="ui-button-secondary" (click)="increment()">Increment</button>
+
+<div>Current Count: {{ counter | async }}</div>
+
+<button pButton type="button" class="ui-button-success" (click)="decrement()">Decrement</button>
+
+<button pButton type="button" class="ui-button-info" (click)="reset()">Reset Counter</button>
+
+
+<router-outlet></router-outlet>
